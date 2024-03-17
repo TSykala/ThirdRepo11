@@ -65,6 +65,9 @@ namespace MyNameSpace
             this.drinkTypeComboBox = new System.Windows.Forms.ComboBox();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -361,6 +364,9 @@ namespace MyNameSpace
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.radioButton3);
+            this.groupBox2.Controls.Add(this.radioButton2);
+            this.groupBox2.Controls.Add(this.radioButton1);
             this.groupBox2.Controls.Add(this.drinkTypeComboBox);
             this.groupBox2.Location = new System.Drawing.Point(211, 68);
             this.groupBox2.Name = "groupBox2";
@@ -398,6 +404,36 @@ namespace MyNameSpace
             this.printPreviewDialog1.Name = "printPreviewDialog1";
             this.printPreviewDialog1.Visible = false;
             // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(29, 75);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(96, 17);
+            this.radioButton1.TabIndex = 4;
+            this.radioButton1.Text = "&20 Ounce 4.00";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(29, 108);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(96, 17);
+            this.radioButton2.TabIndex = 5;
+            this.radioButton2.Text = "&20 Ounce 4.00";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton3
+            // 
+            this.radioButton3.AutoSize = true;
+            this.radioButton3.Location = new System.Drawing.Point(29, 142);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(96, 17);
+            this.radioButton3.TabIndex = 6;
+            this.radioButton3.Text = "&20 Ounce 4.00";
+            this.radioButton3.UseVisualStyleBackColor = true;
+            // 
             // JuiceBarForm
             // 
             this.AcceptButton = this.addToOrderButton;
@@ -429,6 +465,7 @@ namespace MyNameSpace
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -472,6 +509,9 @@ namespace MyNameSpace
         private System.Windows.Forms.ComboBox drinkTypeComboBox;
         private System.Drawing.Printing.PrintDocument printDocument1;
         private System.Windows.Forms.PrintPreviewDialog printPreviewDialog1;
+        private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton radioButton1;
     }
 }
 
